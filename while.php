@@ -10,9 +10,18 @@
 
     <div class="card">
 
+        <h1>งานที่ 1 กฤษณพงษ์ ทองสุข เลขที่ 1 BIT2/5</h1>
+
+        <div style="text-align: center; margin-bottom: 15px;">
+    <a href="index.php" 
+       style="display: inline-block; color: #ffffff; font-weight: bold; text-decoration: none;">
+       For Loop
+    </a>
+</div>
+
         <form action="" method="GET">
 
-            <label>เลขแม่สูตรคูณ</label><br>
+            <label style="color: #ffffff;">เลขแม่สูตรคูณ</label><br>
 
             <input type="number" name="num" required>
 
@@ -26,7 +35,7 @@
                 $i = 1;
 
                 echo "<div class='result-container'>";
-                echo "<h3>สูตรคูณแม่ $num</h3>";
+                echo "<h3>สูตรคูณแม่ $num (While Loop)</h3>";
 
                 while($i <= 12){
 

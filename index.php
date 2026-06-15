@@ -15,10 +15,12 @@
 
         <form action=""  method="GET">
             
+            <div style="text-align: center; margin-bottom: 15px;">
             <a href="while.php" 
-               style="display: inline-block; margin-bottom: 15px; color: #ffffff; font-weight: bold; text-decoration: none;">
-               While Loop
+                style="display: inline-block; color: #ffffff; font-weight: bold; text-decoration: none;">
+             While Loop
             </a>
+</div>
 
             <br>
 
@@ -36,7 +38,7 @@
                     $num = $_GET['num'];
 
                     echo "<div class='result-container'>";
-                    echo "<h3>สูตรคูณแม่ $num</h3>";
+                    echo "<h3>สูตรคูณแม่ $num (For Loop)</h3>";
 
                     for($i = 1; $i <= 12; $i++){
                         echo "<div class='row'>";
